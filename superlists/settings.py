@@ -25,9 +25,12 @@ SECRET_KEY = '%i$j=_p=0h-4@f)!80i&)@_n7k&75pxwsc2q9h_z$dk9ux_ho%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
+# <<<<<<< HEAD
 TEMPLATE_DEBUG = DEBUG
 
 # Needed when DEBUG=False
+# =======
+# >>>>>>> c816ab784a213ff1a3939e6df3d0ace221d65494
 ALLOWED_HOSTS = ['59.110.63.35']
 
 
