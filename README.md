@@ -6,7 +6,13 @@
 ![](out.png)
 目前还有很多需要改进的地方，功能仅供测试
 ### 实现依赖：
+* Python3.6
 * Django 3.0.6
-
-source中为主要代码
-database为
+* Virtualenv + pip
+* Nginx
+* Gunicorn 20.0.4
+* Fabric3
+* Git
+## 其他
+1. deploy_tools文件夹下为部署时使用配置文件
+2. 自动部署主要使用fabric3，自动化脚本见fabfile.py
